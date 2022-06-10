@@ -11,6 +11,11 @@ background-color: darkslategray;
 background: linear-gradient(rgb(141, 141, 141) 0%, darkslategray);
 }
 
+header img{
+    width: 300px;
+}
+
+
 
 nav {
     width: 600px;
@@ -43,8 +48,8 @@ margin: 20px;
 }
 
 .imgname {
-   height: 300px;
-   background-image: url(/img/banner.jpg);
+   height: 600px;
+   background-image: url(/img/back2.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    display: flex;
@@ -129,34 +134,6 @@ h2 {
     cursor: pointer;
 }
 
-#horario-funcionamento{
-    margin: auto;
-    border: 1px black;
-}
-#horario-funcionamento .container{
-    padding: 30px 0px;
-    width: 500px;
-    margin: auto;
-}
-
-#horario-funcionamento table {
-    margin: auto;
-}
-
-#horario-funcionamento table th {
-    width: 130px;
-    border: solid black;
-    background-color: darkslategrey;
-    
-}
-
-#horario-funcionamento table td {
-    border: 1px solid black;
-    text-align: center;
-    padding: 2px 0px;
-
-}
-
 #video {
     display: flex;
     justify-content: center;
@@ -166,6 +143,10 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+footer img {
+    width: 300px;
 }
 
 footer{
@@ -203,6 +184,7 @@ footer .midias img {
 }
 /*=========== PRODUTO ========*/
 
+
 .produtos {
     display: flex;
     justify-content: space-evenly;
@@ -219,6 +201,11 @@ footer .midias img {
     border-radius: 15px;
     padding: 15px 15px;
 }
+
+.produtos img {
+    width: 246px;
+}
+
 
 .produtos .produto:hover {
     background-color: rgb(86, 94, 94);
